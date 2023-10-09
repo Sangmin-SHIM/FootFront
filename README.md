@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# FootStats (Projet de Visualisation de Données)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue dans le projet de visualisation de données sur le football (2002 2022, les 5 ligues principales). Vous pouvez accéder au site web du projet à l'adresse suivante : 
 
-## Available Scripts
+# [footstats.sangmin.fr](http://footstats.sangmin.fr)
 
-In the project directory, you can run:
+## Aperçu
 
-### `npm start`
+Voici quelques captures d'écran de notre application :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Capture d'écran 1](https://github.com/Sangmin-SHIM/FootFront/assets/93679283/e3da9a9a-cbbf-4b68-a539-276e78055540)
+<hr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Capture d'écran 2](https://github.com/Sangmin-SHIM/FootFront/assets/93679283/97a260e5-1abd-48bc-9be5-dd177b95ad68)
+<hr>
 
-### `npm test`
+![Capture d'écran 3](https://github.com/Sangmin-SHIM/FootFront/assets/93679283/b474550f-b707-462b-bc13-a34b1388fce6)
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Capture d'écran 4](https://github.com/Sangmin-SHIM/FootFront/assets/93679283/35f7df84-a756-43e3-8392-e0a2c7e39ebe)
 
-### `npm run build`
+## Architecture de l'Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Notre application est divisée en plusieurs composants clés :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dans le répertoire ([Football Data](https://github.com/Sangmin-SHIM/Football)) , vous trouverez toutes les données brutes et traitées utilisées dans notre projet. Il comprend également des scripts pour collecter, nettoyer et préparer les données.
 
-### `npm run eject`
+### BackEnd
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Le backend de notre application gère la logique métier et l'accès aux données. Il utilise des frameworks tels que **Spring Boot** pour fournir une API robuste aux clients frontend ([Football BackEnd](https://github.com/Sangmin-SHIM/FootStatsVisualization)).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### FrontEnd
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Le frontend (ce répertoire) est l'interface utilisateur de notre application. Il permet aux utilisateurs d'interagir avec les données de manière conviviale. Nous utilisons **React** pour développer le frontend.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributeurs
 
-## Learn More
+Merci à toutes les personnes qui ont contribué à ce projet. Voici la liste des contributeurs :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Gaston PALLAS](https://github.com/Gastonpallas)
+- [Zainab LAHMAR](https://github.com/zlahmar)
+- [Julien FLUSIN](https://github.com/jul-fls)
